@@ -1,7 +1,8 @@
 .container {
-  height:80vh;
-  width: 310px;
+  max-height:80vh;
+  min-width: 310px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5px;
@@ -9,10 +10,12 @@
 }
 
 .list{
+  border: 2px solid #72677A;
+  padding-top: 20px;
   overflow-y: scroll;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
   width: 100%;

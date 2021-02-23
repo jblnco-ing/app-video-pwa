@@ -4,12 +4,14 @@ import CardVideo from './CardVideo'
 
 const ListContainer = () => (
     <div className={styles.container}>
-        <div className={styles.list}>
             <select>
                 <option value="1" selected>
                     Categoria 1
             </option>
             </select>
+        <div className={styles.list}>
+            <CardVideo/>
+            <CardVideo/>
             <CardVideo/>
         </div>
     </div>
