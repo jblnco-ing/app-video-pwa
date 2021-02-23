@@ -1,0 +1,20 @@
+.container {
+  height:80vh;
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #333333;
+}
+
+.list{
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #FCBBB2;
+}
