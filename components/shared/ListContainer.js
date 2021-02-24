@@ -10,9 +10,9 @@ const ListContainer = () => (
             </option>
             </select>
         <div className={styles.list}>
-            <CardVideo/>
-            <CardVideo/>
-            <CardVideo/>
+            <CardVideo id="1"/>
+            <CardVideo id="2"/>
+            <CardVideo id="3"/>
         </div>
     </div>
 )
