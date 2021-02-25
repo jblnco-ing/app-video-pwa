@@ -9,7 +9,7 @@ const CardVideo = (props) => (
             <img className={styles.play} src="/assets/play_arrow_24px.svg"/>
         </div>
         </Link>
-        <p className={styles.description}>testo del video</p>
+        <p className={styles.description}>{props.text}</p>
     </div>
 )
 
