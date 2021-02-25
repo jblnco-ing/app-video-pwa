@@ -1,6 +1,11 @@
 import Link from 'next/link'
+import { videos } from '../../consts/videos';
 import styles from '../../styles/ListContainer.module.css'
 import CardVideo from './CardVideo'
+
+const list = ()=>{
+    return videos.map((video,index)=><CardVideo id={index} />)
+};
 
 const ListContainer = () => (
     <div className={styles.container}>
@@ -10,9 +15,7 @@ const ListContainer = () => (
             </option>
             </select>
         <div className={styles.list}>
-            <CardVideo id="1"/>
-            <CardVideo id="2"/>
-            <CardVideo id="3"/>
+            {list()}
         </div>
     </div>
 )
