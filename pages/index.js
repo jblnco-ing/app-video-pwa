@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/layouts/header'
+import Header from '../components/layouts/Header'
 import ListContainer from '../components/shared/ListContainer'
 import styles from '../styles/Home.module.css'
 
