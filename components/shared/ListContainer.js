@@ -6,13 +6,13 @@ import { useState } from 'react';
 
 const ListContainer = () => {
     const [categoria, setCategoria] = useState(options[0].value);
-    const onChangeSelect = (option)=>{
+    const onChangeSelect = (option) => {
         setCategoria(option.value);
     };
     const list = () => {
-        return videos.filter((video)=>video.categoria == categoria).map((video, index) => <CardVideo text={video.text} id={index} key={index} />);
+        return videos.filter((video) => video.categoria == categoria).map((video, index) => <CardVideo text={video.text} id={index} key={index} />);
     };
-    
+
     return (
         <div className={styles.container}>
             <div className={styles.select}>
