@@ -63,7 +63,7 @@ const colourStyles = {
 const ListContainer = () => (
     <div className={styles.container}>
         <div className={styles.select}>
-          <Select options={options} styles={colourStyles}/>
+          <Select options={options} isSearchable={false} defaultValue={options[0]} styles={colourStyles}/>
         </div>
         <div className={styles.list}>
             <CardVideo/>
