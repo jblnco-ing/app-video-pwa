@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { videos } from '../../consts/videos';
 import styles from '../../styles/ListContainer.module.css'
 import CardVideo from './CardVideo'
 
@@ -11,7 +12,7 @@ const options = [
 ]
 
 const colourStyles = {
-    control: (styles, { isFocused, isSelected }) => ({
+    control: (styles, { isFocused }) => ({
         ...styles, 
         backgroundColor: 'var(--blue)', 
         border: 'solid 2px var(--violet)', 
@@ -60,15 +61,17 @@ const colourStyles = {
     },
   };
 
+const list = ()=>{
+    return videos.map((video,index)=><CardVideo id={index} />)
+};
+
 const ListContainer = () => (
     <div className={styles.container}>
         <div className={styles.select}>
           <Select options={options} isSearchable={false} defaultValue={options[0]} styles={colourStyles}/>
         </div>
         <div className={styles.list}>
-            <CardVideo/>
-            <CardVideo/>
-            <CardVideo/>
+            {list()}
         </div>
     </div>
 )

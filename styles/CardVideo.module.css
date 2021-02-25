@@ -5,10 +5,25 @@
   align-items: center;
 }
 
-.img{/*
-  border: 2px solid var(--violet);*/
+.img_container{
+  position: relative;
   height: 130px;
   width: 260px;
+  border: 2px solid #72677A;
+}
+
+.img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.play{
+  margin: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
 }
 
 .description{
