@@ -3,7 +3,7 @@ import styles from '../../styles/Header.module.css'
 const Header = () => (
   <header className={styles.header}>
         <Link href="/">
-            <img className={styles.logo} src="/apple-icon.png"/>
+            <img className={styles.logo} src="/joel-gray.png"/>
         </Link>
     <h1 className={styles.title}>TU MARCA</h1>
   </header>

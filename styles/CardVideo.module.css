@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -27,6 +27,11 @@
 }
 
 .description{
+  text-align: justify;
   align-self: start;
   color: var(--violet);
+  width: 260px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }

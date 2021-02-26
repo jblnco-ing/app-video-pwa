@@ -6,7 +6,7 @@ import styles from '../../../styles/Home.module.css'
 const Video = () => {
     const router = useRouter();
     const { id } = router.query;
-    const url = videos[id]?.video;
+    const url = videos.find((video)=>video.id == id)?.video;
     return (
         <>
             <div className={styles.container} style={{ backgroundColor: "black" }}>
