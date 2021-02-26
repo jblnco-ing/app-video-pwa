@@ -10,7 +10,7 @@ const ListContainer = () => {
         setCategoria(option.value);
     };
     const list = () => {
-        return videos.filter((video) => video.categoria == categoria).map((video, index) => <CardVideo text={video.text} id={index} key={index} />);
+        return videos.filter((video) => video.categoria == categoria).map((video, index) => <CardVideo img={video.img} text={video.text} id={index} key={index} />);
     };
 
     return (

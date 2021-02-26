@@ -5,7 +5,7 @@ const CardVideo = (props) => (
     <div className={styles.container}>
         <Link href={`video/${props.id}`}>
             <div className={styles.img_container}>
-                <img className={styles.img} src="/assets/Video.png" />
+                <img className={styles.img} src={props.img} />
                 <img className={styles.play} src="/assets/play_arrow_24px.svg" />
             </div>
         </Link>
