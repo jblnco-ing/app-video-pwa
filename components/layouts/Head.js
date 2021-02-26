@@ -13,7 +13,7 @@ const Head = ()=>(
     <link href="icons/icon-192x192.png" rel="icon" sizes="192x192"></link>
     <link href="icons/icon-128x128.png" rel="icon" sizes="128x128"></link>
     <link rel='apple-touch-icon' href='/apple-icon.png'></link>
-    <meta name='theme-color' content='#EEEEEE' />
+    <meta name='theme-color' content='#eeeeee' />
     <link rel="icon" href="/favicon.ico" />
     <title>Next.js PWA Example</title>
 </HeadNext>);
