@@ -10,7 +10,7 @@ const Video = () => {
     return (
         <>
             <div className={styles.container} style={{ backgroundColor: "black" }}>
-                <ReactPlayer volume="0.15" width="100%" style={{ maxHeight: "50%" }} controls loop url={url} />
+                <ReactPlayer volume={0.15} width="100%" style={{ maxHeight: "50%" }} controls loop url={url} />
             </div>
         </>
     );

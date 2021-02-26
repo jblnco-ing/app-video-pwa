@@ -1,8 +1,8 @@
 {
   "name": "app-video",
   "short_name": "app-video",
-  "theme_color": "#FCBBB2",
-  "background_color": "#FCBBB2",
+  "theme_color": "#EEEEEE",
+  "background_color": "#EEEEEE",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

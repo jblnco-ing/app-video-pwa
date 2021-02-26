@@ -71,6 +71,7 @@ const colourStyles = {
             cursor: isSelected ? 'default' : 'pointer',
             borderBottom: 'solid 1px var(--violet)',
             textAlign: 'center',
+            zIndex:'2'
         };
     },
 };
